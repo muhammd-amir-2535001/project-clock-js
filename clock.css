@@ -1,0 +1,353 @@
+/* Reset default styles */
+ /* Reset default styles */
+*{
+  background:#138d15 url(http://7-themes.com/data_images/out/52/6948810-wood-background-pictures-free-download.jpg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+/* Parent container for the clock */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+.date-and-year{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    /* flex-direction: column; */
+}
+
+/* Clock container styles */
+.clock {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #333;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Clock face styles */
+.clock_face {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* Clock hand styles */
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: 50% 100%;
+}
+
+.hour {
+  width: 4px;
+  height: 60px;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.mint {
+  width: 2px;
+  height: 80px;
+  background-color: #555;
+  border-radius: 2px;
+}
+
+.second {
+  width: 1px;
+  height: 90px;
+  background-color: red;
+}
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Parent container for the clock */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  /* Clock container styles */
+  .clock {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Clock face styles */
+  .clock_face {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  /* Clock hand styles */
+  .hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+  }
+  
+  .hour {
+    width: 4px;
+    height: 60px;
+    background-color: #333;
+    border-radius: 4px;
+  }
+  
+  .mint {
+    width: 2px;
+    height: 80px;
+    background-color: #555;
+    border-radius: 2px;
+  }
+  
+  .second {
+    width: 1px;
+    height: 90px;
+    background-color: red;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset default styles 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Clock container styles 
+  .clock {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Clock face styles 
+  .clock_face {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  /* Clock hand styles *
+  .hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+  }
+  
+  .hour {
+    width: 4px;
+    height: 60px;
+    background-color: #333;
+    border-radius: 4px;
+  }
+  
+  .mint {
+    width: 2px;
+    height: 80px;
+    background-color: #555;
+    border-radius: 2px;
+  }
+  
+  .second {
+    width: 1px;
+    height: 90px;
+    background-color: red;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+html {
+    background:#138d15 url(http://7-themes.com/data_images/out/52/6948810-wood-background-pictures-free-download.jpg);
+    background-size: cover;
+    font-family: 'helvetica neue';
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.clock{
+    
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); 
+}
+.clock_face {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    overflow: hidden;
+} 
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom center;
+    transform: rotate(90deg);
+}
+.hour {
+    width: 50%;
+    height: 3px;
+    background-color: #000;
+   
+}
+
+.mint {
+    width: 50%;
+    height: 3px;
+    background-color: #000;
+   
+}
+
+.second {
+    width: 50%;
+    height: 3px;
+    background-color: red;
+ 
+}
+*/
+
+
+/*copy code*/
+/* CSS to style the clock 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.clock_face {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom center;
+}
+
+.hour-hand {
+    width: 5px;
+    height: 40px;
+    background-color: #000;
+    z-index: 1;
+}
+
+.min-hand {
+    width: 3px;
+    height: 60px;
+    background-color: #000;
+    z-index: 2;
+}
+
+.second-hand {
+    width: 2px;
+    height: 70px;
+    background-color: red;
+    z-index: 3;
+}
+*/

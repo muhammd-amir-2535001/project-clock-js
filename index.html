@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+</body>
+<script>
+
+let arr = [4,3,2];
+
+let target = 6;
+
+function indicesReplace(arr, target) {
+
+  let myObject = {};
+
+  for(let i = 0; i < arr.length; i++)
+  {
+    let currentElement = arr[i];
+    let complement = target - currentElement;
+    
+    if (myObject[complement] !== undefined) {
+      
+      return [myObject[complement], i];
+    }
+    
+    myObject[currentElement] = i; 
+  }
+  
+  return null; 
+}
+
+let result = indicesReplace(arr, target);
+console.log(result);
+ // Output= [1, 2] (because arr[1] + arr[2] = 2 + 4 = 6, which is the target)
+
+</script>
+</html>
