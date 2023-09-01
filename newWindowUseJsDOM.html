@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WindowDOM</title>
+    <!--open and close a new window
+    using javaScript Window DOM 
+    | open() and close()-->
+
+</head>
+<script type="text/javaScript">
+    var win;
+    function openwin() {
+       win = window.open("https://blockapex.io",
+       "width=150px","hegiht=150px");
+      // win2 = window.open();
+    }
+    function closewin() {
+        win.close();
+        //win2.close();
+
+    }
+</script>
+<body>
+    <button onclick="openwin()">Open Blockapex</button>
+    <button onclick="closewin()">Close Blockapex</button>
+
+</body>
+</html>

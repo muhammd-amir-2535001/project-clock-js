@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout</title>
+</head>
+<script type="text/javascript">
+    var my;
+    function start(){
+        my = setTimeout(
+            function(){
+                document.write("muhammad amir");
+
+
+        },
+        1000
+        );
+    }
+    function stop(){
+        clearTimeout(my);
+        alert("stop now");
+    }
+</script>
+<body>
+    <button onclick="start()">start</button>
+    <button onclick="stop()">Stop</button>
+    
+</body>
+</html>
